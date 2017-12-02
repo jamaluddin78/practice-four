@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Practice-four</title>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-sm-12">-->
+                    <!--<table class="table table-bordered table-hover table-responsive">-->
+                        <!--<tr class="table-info">-->
+                            <!--<th>First Name</th>-->
+                            <!--<th>Last Name</th>-->
+                            <!--<th>Email Address</th>-->
+                            <!--<th>Phone Number</th>-->
+                            <!--<th>Address</th>-->
+                            <!--<th>City</th>-->
+                            <!--<th>Country</th>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                            <!--<td class="table-success">Jamal</td>-->
+                            <!--<td>Uddin</td>-->
+                            <!--<td>mduddin514@gmail.com</td>-->
+                            <!--<td>01750789636</td>-->
+                            <!--<td>Nikunja-2</td>-->
+                            <!--<td>Dhaka</td>-->
+                            <!--<td>Bangladesh</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                            <!--<td>Jamal</td>-->
+                            <!--<td>Uddin</td>-->
+                            <!--<td>mduddin514@gmail.com</td>-->
+                            <!--<td>01750789636</td>-->
+                            <!--<td>Nikunja-2</td>-->
+                            <!--<td>Dhaka</td>-->
+                            <!--<td>Bangladesh</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                            <!--<td>Jamal</td>-->
+                            <!--<td>Uddin</td>-->
+                            <!--<td>mduddin514@gmail.com</td>-->
+                            <!--<td>01750789636</td>-->
+                            <!--<td>Nikunja-2</td>-->
+                            <!--<td>Dhaka</td>-->
+                            <!--<td>Bangladesh</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                            <!--<td>Jamal</td>-->
+                            <!--<td>Uddin</td>-->
+                            <!--<td>mduddin514@gmail.com</td>-->
+                            <!--<td>01750789636</td>-->
+                            <!--<td>Nikunja-2</td>-->
+                            <!--<td>Dhaka</td>-->
+                            <!--<td>Bangladesh</td>-->
+                        <!--</tr>-->
+                    <!--</table>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-sm-6" style="height: 600px; border: 1px solid;">-->
+                    <!--<div class="row">-->
+                        <!--<div class="col-sm-4" style="height: 200px; border: 1px solid red;"></div>-->
+                        <!--<div class="col-sm-4" style="height: 200px; border: 1px solid red;"></div>-->
+                        <!--<div class="col-sm-4" style="height: 200px; border: 1px solid red;"></div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-sm-12">-->
+                    <!--<img src="images/nature.jpg" class="img-thumbnail" alt="nature">-->
+                    <!--<img src="images/nature.jpg" class="img-fluid" alt="nature">-->
+                    <!--<img src="images/nature.jpg" class="rounded-circle" alt="nature">-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" placeholder="your first name" maxlength="10" name="first_name" id="firstName" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" value="Basis institute of technology and management" readonly name="last_name" id="lastName" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="emailAddress">Email Address</label>
+                        <input type="email" name="email_address" id="emailAddress" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Password">Password</label>
+                        <input type="Password" name="Password" id="Password" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="number" min="10" name="phone_number" id="phoneNumber" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="dateOfBirth">Date of Birth</label>
+                        <input type="date" name="date_of_birth" id="dateOfBirth" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label><input type="radio" name="gender" checked value="male" /> Male</label>
+                        <label><input type="radio" name="gender" value="female" /> Female</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="textArea">Address</label>
+                        <textarea name="address" id="textArea" class="form-control" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>District Name</label>
+                        <select name="district_name" class="form-control">
+                            <option>---Select District Name---</option>
+                            <option>Nowakhali</option>
+                            <option>Borisal</option>
+                            <option>Dhaka</option>
+                            <option>Rajshahi</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Image</label>
+                        <input type="file" name="image" accept="image/*" />
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" name="agree" class="form-check-input" />I agree with all terms and conditions
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <button type="" class="btn btn-success btn-block">Submit</button>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">Date of Birth</label>
+                        <div class="col-sm-10">
+                            <input type="date" name="date_of_birth" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">Date of Birth</label>
+                        <div class="col-sm-10">
+                            <input type="date" name="date_of_birth" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">Date of Birth</label>
+                        <div class="col-sm-10">
+                            <input type="date" name="date_of_birth" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
